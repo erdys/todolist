@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --defaultFontSize: 16px;
+    --fontColor: #35383e;
+    --backgroundColor: #4ca1af;
+    --backgroundColorAlt: #c4e0e5;
+    --fontHeader: 'Titillium Web', sans-serif;
+    --fontFamily: 'Roboto', sans-serif;
+    --backgroundTask: #f5f5f5;
+    --backgroundTaskDone: #d8eddd;
+    --colorTaskDone: #176b2a;
+    --backgroundCheckbox: #d5d6d6;
+    --backgroundCheckboxDone: #2bd350;
+    --fontColorTitle: #35383e;
+    --fontColorSubtitle: #9a9b9e;
+    --alertColor: #fd3e3e;
+    --whiteColor: #fff;
+    --greyedColor: #adaeb0;
+    --darkColor: #35383e;
+    --specialColor: #ffaa04;
+    --shadowDraggingItem: 0 0 20px #adaeb0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 320px;
+    font-size: var(--defaultFontSize);
+    color: var(--fontColor);
+    background: var(--backgroundColor);
+    background: linear-gradient(to right, var(--backgroundColorAlt), var(--backgroundColor));
+    font-family: var(--fontFamily);
+}

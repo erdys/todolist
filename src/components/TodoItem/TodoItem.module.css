@@ -1,0 +1,51 @@
+.item {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 1rem;
+}
+
+.checkbox {
+    width: 26px;
+    height: 26px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.itemTodo {
+    font-weight: bold;
+    background: var(--backgroundTask);
+}
+
+.itemTodo .checkbox {
+    background: var(--backgroundCheckbox);
+    fill: var(--greyedColor);
+}
+
+.itemDone {
+    color: var(--colorTaskDone);
+    background: var(--backgroundTaskDone);
+}
+
+.itemDone .checkbox {
+    background: var(--backgroundCheckboxDone);
+    fill: var(--whiteColor);
+}
+
+.delete {
+    margin-left: auto;
+    padding: 4px;
+    width: 26px;
+    height: 26px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background: var(--alertColor);
+    fill: var(--whiteColor);
+}
+
+.checkbox,
+.delete {
+    flex: 0 0 auto;
+}

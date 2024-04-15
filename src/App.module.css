@@ -1,0 +1,63 @@
+.container {
+    margin: 3.125rem 7.5rem;
+    padding: 2.188rem 2.813rem;
+    border-radius: 2.813rem;
+    background: var(--whiteColor);
+    @media (max-width: 767px) {
+        margin: 1.125rem 0.9rem;
+        padding: 1.563rem 1.875rem;
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 0;
+    font-family: var(--fontHeader);
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 100%;
+    color: var(--fontColorTitle);
+}
+
+.subtitle {
+    margin: 0.625rem 0;
+    font-family: var(--fontHeader);
+    font-size: 1.438rem;
+    font-weight: normal;
+    line-height: 100%;
+    color: var(--fontColorSubtitle);
+}
+
+.button {
+    width: 50px;
+    color: var(--whiteColor);
+    font-size: 2rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    background: var(--specialColor);
+    cursor: pointer;
+}
+
+.dragging {
+    border-radius: 1rem;
+    box-shadow: var(--shadowDraggingItem);
+}
+
+.resting {
+    margin: 0.625rem 0;
+}
+
+.draggingOver {
+    border: 2px dashed #ddd;
+}
+
+.restingOver {
+    border: 2px dashed transparent;
+}
